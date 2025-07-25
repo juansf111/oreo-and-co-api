@@ -1,0 +1,27 @@
+{
+  "name": "oreo-and-co-api",
+  "version": "1.0.0",
+  "description": "REST API for Oreo & Co pet clothing store - Talento Tech Final Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "pet",
+    "clothing",
+    "api",
+    "firebase"
+  ],
+  "author": "Juan Sebastian Fajardo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.14.1",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
